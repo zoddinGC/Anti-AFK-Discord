@@ -1,0 +1,1 @@
+Just an application to help a friend to not goes AFK on discord.
