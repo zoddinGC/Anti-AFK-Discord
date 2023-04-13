@@ -1,7 +1,7 @@
 import pyautogui
 
 # Import local modules
-from detect_image import click_on_discord
+from detect_image import click_on_second_screen
 
 
 class AntiAFK():
@@ -27,7 +27,7 @@ class AntiAFK():
                     afk += 1
 
             if afk == time_limit - 1:
-                click_on_discord()
+                click_on_second_screen()
                 return True
 
         return False

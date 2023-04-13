@@ -35,3 +35,17 @@ def click_on_discord():
     y1, y2 = 0, 50
 
     click_on_image(x1, y1, x2, y2, image)
+
+
+def click_on_second_screen():
+    pyautogui.moveTo(x=3678, y=102, duration=0.5)
+    sleep(0.1)
+    pyautogui.click()
+    sleep(0.5)
+    pyautogui.moveTo(x=3000, y=21, duration=0.5)
+    sleep(0.1)
+    pyautogui.click()
+
+
+if __name__ == '__main__':
+    click_on_second_screen()
