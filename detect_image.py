@@ -46,6 +46,5 @@ def click_on_second_screen():
     sleep(0.1)
     pyautogui.click()
 
-
 if __name__ == '__main__':
     click_on_second_screen()

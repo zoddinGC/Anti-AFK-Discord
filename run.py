@@ -1,6 +1,7 @@
 from anti_afk import AntiAFK
 from time import sleep
 
+
 # Change this values to change the period of AFK test
 minutes_to_test = 3 # 5 minutes to test AFK
 
@@ -16,7 +17,8 @@ while True:
 
     if time >= time_limit:
         afk = anti_afk.check_afk(time_limit=time_limit)
- 
+        print(afk)
+
     if afk:
         time = 0
         afk = False
